@@ -6,7 +6,7 @@ void setup () {               // <-- runs once
   size(100,100);              // -- we only need a small space for a single number
   frameRate(1);               // -- draw loop runs once per second
   textAlign(CENTER,CENTER);   // -- text will be centred on the coordinates that we give to text()
-  textSize(32);               // -- text will be 32 pixels high
+  textSize(24);               // -- text will be 32 pixels high
 }
 
 void draw () {                // <-- runs continuously (speed set by frameRate variable)
